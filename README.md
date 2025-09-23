@@ -4,7 +4,7 @@
 
 ###
 
-<img align="left" height="171" src="giphy.gif"  />
+<img align="left" height="171" src="gif.gif"  />
 
 ###
 
