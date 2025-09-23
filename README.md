@@ -20,9 +20,10 @@
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/RavinduRathnayaka/RavinduRathnayaka/output/pacman-contribution-graph-dark.svg">
   <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/RavinduRathnayaka/RavinduRathnayaka/output/pacman-contribution-graph.svg">
   <img alt="pacman contribution graph" src="https://raw.githubusercontent.com/RavinduRathnayaka/RavinduRathnayaka/output/pacman-contribution-graph.svg">
+  ![Metrics](https://metrics.lecoq.io/RavinduRathnayaka?template=classic&isocalendar=1&achievements=1&base=header%2C%20activity%2C%20community%2C%20repositories%2C%20metadata&base.indepth=false&base.hireable=false&base.skip=false&isocalendar=false&isocalendar.duration=full-year&achievements=false&achievements.threshold=C&achievements.secrets=true&achievements.display=detailed&achievements.limit=0&config.timezone=Asia%2FColombo)
 </picture>
 
-![Metrics](https://metrics.lecoq.io/RavinduRathnayaka?template=classic&isocalendar=1&achievements=1&base=header%2C%20activity%2C%20community%2C%20repositories%2C%20metadata&base.indepth=false&base.hireable=false&base.skip=false&isocalendar=false&isocalendar.duration=full-year&achievements=false&achievements.threshold=C&achievements.secrets=true&achievements.display=detailed&achievements.limit=0&config.timezone=Asia%2FColombo)
+
 ###
 
 <h2 align="left">Weapons of Mass Destruction</h2>
