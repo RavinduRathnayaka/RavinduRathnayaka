@@ -26,7 +26,7 @@
 
 ###
 
-<img align="right" height="0.1" src="https://img.shields.io/badge/Kali-268BEE?style=for-the-badge&logo=kalilinux&logoColor=white)"  />
+<img align="right" height="0.1" src="one.png"  />
 
 ###
 
