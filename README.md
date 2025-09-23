@@ -1,134 +1,63 @@
-<br clear="both">
+<!-- ===== Profile Header ===== -->
+<div style="display:flex; align-items:center; gap:20px; flex-wrap:wrap; max-width:1000px; margin:0 auto; padding:20px 0;">
+  <!-- Left: Avatar -->
+  <img src="gif.gif"
+       alt="avatar"
+       style="width:170px; height:170px; object-fit:cover; border-radius:12px; box-shadow:0 6px 18px rgba(0,0,0,0.45);" />
+  
+  <!-- Right: Bio -->
+  <div style="flex:1; min-width:250px;">
+    <h3 style="margin:0; font-size:15px; line-height:1.55; color:#e6eef8;">
+      A versatile Cyber Security Engineer and penetration tester with hands-on experience in vulnerability assessments, threat detection, and incident response. Skilled in leveraging Burp Suite, Metasploit, and SIEM/XDR platforms to identify and mitigate risks across web applications, networks, and cloud infrastructure. Passionate about red teaming, continuous learning, and delivering clear, actionable security solutions to strengthen organizational defenses.
+      <br><br>
+      Outside of work I enjoy hands-on security research, CTFs, and building automation tooling that reduces manual triage work — always curious and shipping small, practical improvements.
+    </h3>
+  </div>
+</div>
 
-<h2 align="left">/bin/bash -c 'whoami'</h2>
-
-###
-
-<img align="left" height="171" src="gif.gif"  />
-
-###
-
-<h3 align="left">A versatile Cyber Security Engineer and penetration tester with hands-on experience in vulnerability assessments, threat detection, and incident response. Skilled in leveraging tools like Burp Suite, Metasploit, and SIEM/XDR platforms to identify and mitigate risks across applications, networks, and infrastructure. Passionate about red teaming, continuous learning, and delivering clear, actionable security solutions to strengthen organizational defenses.</h3>
-
-###
-
-<br clear="both">
-
-<picture>
+<!-- ===== Contribution Graph ===== -->
+<picture style="display:block; max-width:1000px; margin:10px auto 25px;">
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/RavinduRathnayaka/RavinduRathnayaka/output/pacman-contribution-graph-dark.svg">
   <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/RavinduRathnayaka/RavinduRathnayaka/output/pacman-contribution-graph.svg">
-  <img alt="pacman contribution graph" src="https://raw.githubusercontent.com/RavinduRathnayaka/RavinduRathnayaka/output/pacman-contribution-graph.svg">
+  <img alt="pacman contribution graph"
+       src="https://raw.githubusercontent.com/RavinduRathnayaka/RavinduRathnayaka/output/pacman-contribution-graph.svg"
+       style="width:100%; max-width:900px; display:block; margin:0 auto; border-radius:8px; box-shadow:0 4px 12px rgba(0,0,0,0.35);" />
 </picture>
 
-###
-
-<h2 align="left">Weapons of Mass Destruction</h2>
-
-###
-
-<img align="right" height="0.1" src="https://img.shields.io/badge/Kali-268BEE?style=for-the-badge&logo=kalilinux&logoColor=white)"  />
-
-###
-
-<img align="left" height="34" src="https://img.shields.io/badge/metasploit-2596CD?style=for-the-badge&logo=metasploit&logoColor=white"  />
-
-###
-
-<img align="left" height="34" src="https://img.shields.io/badge/Tails%20-56347C?&style=for-the-badge&logo=tails&logoColor=white"  />
-
-###
-
-<img align="left" height="34" src="https://img.shields.io/badge/burpsuite-FF6633?style=for-the-badge&logo=burpsuite&logoColor=white"  />
-
-###
-
-<img align="left" height="34" src="https://img.shields.io/badge/Wireshark-1679A7?style=for-the-badge&logo=Wireshark&logoColor=white"  />
-
-###
-
-<img align="right" height="34" src="https://img.shields.io/badge/Snyk-4C4A73?style=for-the-badge&logo=snyk&logoColor=white"  />
-
-###
-
-<img align="left" height="34" src="https://img.shields.io/badge/Kali-268BEE?style=for-the-badge&logo=kalilinux&logoColor=white)"  />
-
-###
-
-<img align="right" height="34" src="https://img.shields.io/badge/HackTheBox-111927?style=for-the-badge&logo=Hack%20The%20Box&logoColor=9FEF00"  />
-
-###
-
-<div align="center">
-  <img src="https://streak-stats.demolab.com?user=RavinduRathnayaka&locale=en&mode=daily&theme=dracula&hide_border=false&border_radius=5&order=3" height="150" alt="streak graph"  />
-  <img src="https://github-profile-trophy.vercel.app?username=RavinduRathnayaka&theme=dracula&column=-1&row=1&margin-w=35&margin-h=8&no-bg=false&no-frame=false&order=4" height="150" alt="trophy graph"  />
+<!-- ===== Weapons of Mass Destruction ===== -->
+<h2 style="text-align:left; margin:20px 0 12px;">Weapons of Mass Destruction</h2>
+<div style="display:flex; flex-wrap:wrap; gap:12px; align-items:center; margin-bottom:20px;">
+  <img src="https://img.shields.io/badge/metasploit-2596CD?style=for-the-badge&logo=metasploit" height="34" />
+  <img src="https://img.shields.io/badge/Tails-56347C?style=for-the-badge&logo=tails" height="34" />
+  <img src="https://img.shields.io/badge/Burpsuite-FF6633?style=for-the-badge&logo=burpsuite" height="34" />
+  <img src="https://img.shields.io/badge/Wireshark-1679A7?style=for-the-badge&logo=wireshark" height="34" />
+  <img src="https://img.shields.io/badge/Kali-268BEE?style=for-the-badge&logo=kalilinux" height="34" />
+  <img src="https://img.shields.io/badge/Snyk-4C4A73?style=for-the-badge&logo=snyk" height="34" />
+  <img src="https://img.shields.io/badge/HackTheBox-111927?style=for-the-badge&logo=hackthebox&logoColor=9FEF00" height="34" />
 </div>
 
-###
-
-<h2 align="left">Exploitable Surfaces</h2>
-
-###
-
-<div align="center">
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/android/android-original.svg" height="40" alt="android logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/windows8/windows8-original.svg" height="40" alt="windows8 logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nginx/nginx-original.svg" height="40" alt="nginx logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linux/linux-original.svg" height="40" alt="linux logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/amazonwebservices/amazonwebservices-line-wordmark.svg" height="40" alt="amazonwebservices logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" height="40" alt="html5 logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" height="40" alt="javascript logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg" height="40" alt="mysql logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" height="40" alt="nodejs logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/apple/apple-original.svg" height="40" alt="apple logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/arduino/arduino-original.svg" height="40" alt="arduino logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg" height="40" alt="docker logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/fastapi/fastapi-original.svg" height="40" alt="fastapi logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/msdos/msdos-original.svg" height="40" alt="msdos logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/npm/npm-original-wordmark.svg" height="40" alt="npm logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/putty/putty-original.svg" height="40" alt="putty logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" height="40" alt="react logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/unix/unix-original.svg" height="40" alt="unix logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/php/php-original.svg" height="40" alt="php logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/azure/azure-original.svg" height="40" alt="azure logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" height="40" alt="java logo"  />
+<!-- ===== Exploitable Surfaces ===== -->
+<h2 style="text-align:left; margin:20px 0 12px;">Exploitable Surfaces</h2>
+<div style="display:flex; flex-wrap:wrap; gap:14px; align-items:center; margin-bottom:30px;">
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/windows8/windows8-original.svg" height="38" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linux/linux-original.svg" height="38" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nginx/nginx-original.svg" height="38" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/amazonwebservices/amazonwebservices-line-wordmark.svg" height="38" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" height="38" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" height="38" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg" height="38" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" height="38" />
 </div>
 
-###
-
-<br clear="both">
-
-<p align="left">theHarvester -d contact.me</p>
-
-###
-
-<div align="center">
+<!-- ===== Social Links ===== -->
+<div style="text-align:center; margin:20px 0 40px;">
   <a href="https://www.linkedin.com/in/r-m-r-m-l-rathnayaka/" target="_blank">
-    <img src="https://raw.githubusercontent.com/maurodesouza/profile-readme-generator/master/src/assets/icons/social/linkedin/default.svg" width="52" height="40" alt="linkedin logo"  />
+    <img src="https://raw.githubusercontent.com/maurodesouza/profile-readme-generator/master/src/assets/icons/social/linkedin/default.svg" width="48" height="36" style="margin:0 6px;" />
   </a>
   <a href="https://discord.com/channels/644568139992006676" target="_blank">
-    <img src="https://raw.githubusercontent.com/maurodesouza/profile-readme-generator/master/src/assets/icons/social/discord/default.svg" width="52" height="40" alt="discord logo"  />
+    <img src="https://raw.githubusercontent.com/maurodesouza/profile-readme-generator/master/src/assets/icons/social/discord/default.svg" width="48" height="36" style="margin:0 6px;" />
   </a>
-  <img src="https://raw.githubusercontent.com/maurodesouza/profile-readme-generator/master/src/assets/icons/social/gmail/default.svg" width="52" height="40" alt="gmail logo"  />
+  <a href="mailto:yourmail@gmail.com">
+    <img src="https://raw.githubusercontent.com/maurodesouza/profile-readme-generator/master/src/assets/icons/social/gmail/default.svg" width="48" height="36" style="margin:0 6px;" />
+  </a>
 </div>
-
-###
