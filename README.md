@@ -26,7 +26,7 @@
 
 ###
 
-<img align="right" height="0.1" src="one.png"  />
+<img align="right" height="0.1" src="https://img.shields.io/badge/Kali-268BEE?style=for-the-badge&logo=kalilinux&logoColor=white)"  />
 
 ###
 
@@ -58,15 +58,9 @@
 
 ###
 
-<br clear="both">
-
-<img align="left" height="312" src="https://images.steamusercontent.com/ugc/939432316730598692/998DF3BE9614B453D17E9776752BB36BCE2C8970/?imw=5000&imh=5000&ima=fit&impolicy=Letterbox&imcolor=%23000000&letterbox=false"  />
-
-###
-
-<div align="right">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs?username=RavinduRathnayaka&locale=en&hide_title=false&layout=compact&card_width=320&langs_count=5&theme=dracula&hide_border=false&order=2" height="150" alt="languages graph"  />
+<div align="center">
   <img src="https://streak-stats.demolab.com?user=RavinduRathnayaka&locale=en&mode=daily&theme=dracula&hide_border=false&border_radius=5&order=3" height="150" alt="streak graph"  />
+  <img src="https://github-profile-trophy.vercel.app?username=RavinduRathnayaka&theme=dracula&column=-1&row=1&margin-w=35&margin-h=8&no-bg=false&no-frame=false&order=4" height="150" alt="trophy graph"  />
 </div>
 
 ###
@@ -123,7 +117,7 @@
 
 <br clear="both">
 
-<h5 align="left">theHarvester -d contact.me</h5>
+<p align="left">theHarvester -d contact.me</p>
 
 ###
 
