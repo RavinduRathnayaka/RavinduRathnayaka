@@ -47,10 +47,6 @@
 
 ###
 
-<img align="left" height="30" src="https://img.shields.io/badge/Snyk-4C4A73?style=for-the-badge&logo=snyk&logoColor=white"  />
-
-###
-
 <img align="left" height="30" src="https://img.shields.io/badge/Kali-268BEE?style=for-the-badge&logo=kalilinux&logoColor=white)"  />
 
 ###
