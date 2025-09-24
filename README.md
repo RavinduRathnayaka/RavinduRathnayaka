@@ -1,6 +1,4 @@
-<br clear="both">
-
-<h2 align="left">/bin/bash -c 'whoami'</h2>
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&color=0DF71F&width=435&lines=%2Fbin%2Fbash+-c+'whoami')](https://git.io/typing-svg)
 
 ###
 
@@ -27,7 +25,7 @@
 
 ###
 
-<h2 align="left">Weapons of Mass Destruction</h2>
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&color=0DF71F&width=435&lines=Weapons+of+Mass+Destruction)](https://git.io/typing-svg)
 
 ###
 
@@ -57,8 +55,12 @@
 
 <br clear="both">
 
-<h2 align="left">Exploitable Surfaces</h2>
+<br clear="both">
 
+<br clear="both">
+
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&color=0DF71F&width=435&lines=Exploitable+Surfaces)](https://git.io/typing-svg)
+<br clear="both">
 ###
 
 <div align="center">
@@ -98,15 +100,15 @@
 ###
 
 <div align="center">
-  <img src="https://streak-stats.demolab.com?user=RavinduRathnayaka&locale=en&mode=daily&theme=dracula&hide_border=false&border_radius=5&order=3" height="150" alt="streak graph"  />
-  <img src="https://github-profile-trophy.vercel.app?username=RavinduRathnayaka&theme=dracula&column=-1&row=1&margin-w=35&margin-h=8&no-bg=false&no-frame=false&order=4" height="150" alt="trophy graph"  />
+  <img src="https://streak-stats.demolab.com?user=RavinduRathnayaka&locale=en&mode=daily&theme=tokyonight&hide_border=false&border_radius=5&order=3" height="150" alt="streak graph"  />
+  <img src="https://github-profile-trophy.vercel.app?username=RavinduRathnayaka&theme=matrix&column=-1&row=1&margin-w=35&margin-h=8&no-bg=false&no-frame=false&order=4" height="150" alt="trophy graph"  />
 </div>
 
 ###
 
 <br clear="both">
 
-<h2 align="left">theHarvester -d contact.me</h2>
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&color=0DF71F&width=435&lines=theHarvester+-d+contact.me)](https://git.io/typing-svg)
 
 ###
 
