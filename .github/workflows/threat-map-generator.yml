@@ -1,62 +1,28 @@
-# This file defines your project as a reusable GitHub Action.
-name: 'Live Threat Map Generator'
-description: 'Generates and commits a dynamic SVG threat map using real-time data from Shodan.'
-author: 'RavinduRathnayaka' # You can change this!
+name: Generate Live Threat Map
 
-inputs:
-  SHODAN_API_KEY:
-    description: 'Your Shodan API key. This is required.'
-    required: true
-  GITHUB_TOKEN:
-    description: 'The GITHUB_TOKEN secret. Used for committing the generated file.'
-    required: false
-    default: ${{ github.token }}
-  COMMIT_MSG:
-    description: 'The commit message to use when updating the map.'
-    required: false
-    default: 'Chore: Update live threat map'
-  OUTPUT_FILE:
-    description: 'The path where the generated SVG map will be saved.'
-    required: false
-    default: 'threat-map.svg'
-  MAP_FILE:
-    description: 'The path to your custom background map.svg file.'
-    required: false
-    default: 'map.svg'
+on:
+  # Runs automatically every 6 hours. The time is in UTC.
+  schedule:
+    - cron: "0 */6 * * *"
+  # Allows the user to run this workflow manually from their repository's Actions tab.
+  workflow_dispatch:
 
-runs:
-  using: "composite"
-  steps:
-    - name: Set up Python
-      uses: actions/setup-python@v5
-      with:
-        python-version: '3.10'
+jobs:
+  generate_threat_map:
+    runs-on: ubuntu-latest
+    name: Generate and Commit Live Threat Map
+    permissions:
+      contents: write # Required to commit the generated map back to the repository.
 
-    - name: Install Python dependencies
-      shell: bash
-      run: |
-        pip install requests shodan
+    steps:
+      - name: Check out the user's repository
+        # This step checks out the repository where the map will be saved.
+        uses: actions/checkout@v4
 
-    - name: Run threat map generator script
-      shell: bash
-      run: python ${{ github.action_path }}/generate_threat_map.py
-      env:
-        SHODAN_API_KEY: ${{ inputs.SHODAN_API_KEY }}
-        OUTPUT_SVG_FILENAME: ${{ inputs.OUTPUT_FILE }}
+      - name: Generate Threat Map SVG
+        # This is the key step. It calls YOUR action from your repository.
+        # It passes the user's Shodan API key securely to your action.
+        uses: RavinduRathnayaka/LiveThreatMap-dashboard@main
+        with:
+          SHODAN_API_KEY: ${{ secrets.SHODAN_API_KEY }}
 
-    - name: Commit and push the updated map
-      shell: bash
-      run: |
-        git config --global user.name 'github-actions[bot]'
-        git config --global user.email 'github-actions[bot]@users.noreply.github.com'
-        git add ${{ inputs.OUTPUT_FILE }}
-        if [ -f "${{ inputs.MAP_FILE }}" ]; then git add ${{ inputs.MAP_FILE }}; fi
-        
-        # Commit only if there are changes
-        if ! git diff --staged --quiet; then
-          git commit -m "${{ inputs.COMMIT_MSG }}"
-          git pull --rebase
-          git push
-        else
-          echo "No changes to the map, skipping commit."
-        fi
