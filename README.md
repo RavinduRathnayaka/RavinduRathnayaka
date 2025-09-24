@@ -16,7 +16,7 @@
 
 <br clear="both">
 
-![Threat Map](threat-map.svg)
+[![Threat Map](threat-map.svg)](https://github.com/RavinduRathnayaka/LiveThreatMap-dashboard)
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/RavinduRathnayaka/RavinduRathnayaka/output/pacman-contribution-graph-dark.svg">
